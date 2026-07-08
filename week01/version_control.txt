@@ -1,0 +1,21 @@
+Version Control is the way that we have to manage every update in our code.
+
+We can use different software, systems, or providers of version control to have
+a historical evolution of the program we are working on.
+
+This method of control allows us to make changes in the program, and if we get an error 
+or need to go back or revert a change, we can select an old version of our program saved in this version control system.
+
+Working as a team in a program, every developer can make changes in the program 
+or in different branches and push their code to the main branch, 
+then every developer can see the changes made by others and get an updated tree of files, 
+see what is new, and why the changes were made.
+
+Also, if a member of the team introduces code that causes an error, we can solve it 
+by getting an old version from the version control system.
+
+If we need to see the actual status of our local folder and see if we have files 
+or changes that are not committed or pushed into the repository, we can use the command "git status" and see this.
+
+In single words is a useful tool to make a record of all the changes made in the program by every developer
+and revert the development if an error appears.
