@@ -31,6 +31,15 @@ class Program
             letter = "F";
         }
 
+        if (gradePercentage >= 70)
+        {
+            Console.WriteLine("Congratulations, you passed!");
+        }
+        else
+        {
+            Console.WriteLine("Sorry, but there are more opportunities. Keep trying!");
+        }
+
         Console.WriteLine($"Your grade is '{letter}'.");
     }
 }
