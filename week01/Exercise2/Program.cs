@@ -8,25 +8,29 @@ class Program
         string gradeInput = Console.ReadLine();
         int gradePercentage = int.Parse(gradeInput);
 
+        string letter;
+
         if (gradePercentage >= 90)
         {
-            Console.WriteLine("Congratulations, you get an 'A' grade.");
+            letter = "A";
         }
         else if (gradePercentage >= 80)
         {
-            Console.WriteLine("Congratulacions, you get a 'B' grade.");
+            letter = "B";
         }
         else if (gradePercentage >= 70)
         {
-            Console.WriteLine("Congratulations, you get a 'C' grade.");
+            letter = "C";
         }
         else if (gradePercentage >= 60)
         {
-            Console.WriteLine("You get a 'D' grade.");
+            letter = "D";
         }
         else
         {
-            Console.WriteLine("Sorry, you get an 'F' grade.");
+            letter = "F";
         }
+
+        Console.WriteLine($"Your grade is '{letter}'.");
     }
 }
